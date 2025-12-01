@@ -9,6 +9,12 @@ The method produced an overall score of 0.00 on the VCC leaderboard
   * Differential expression score: 0.00
   * Perturbation discrimination score: 0.51
   * Mean absolute error: 2.37
+
+UPDATE:
+After VCC corrected the metrics, the final overal score was 0.4
+  * Differential expression score: 0.00
+  * Perturbation discrimination score: 0.519
+  * Mean absolute error: 2.365
 """
 
 adata = ad.read_h5ad('vcc_data/adata_Training.h5ad')
